@@ -1,11 +1,13 @@
 {
-  "parent": "heros_revived:custom/arc_reactor_v3-0",
+  "parent": "heros_revived:custom/arc_reactor_v3-1",
   "textures": {
     "all": "heros_revived:blocks/gray_concrete",
     "particle": "heros_revived:blocks/gray_concrete",
     "glass_Top": "heros_revived:blocks/glass_op",
     "glass": "heros_revived:blocks/glass_nwe",
+    "3": "heros_revived:blocks/rc-eactor-asing",
     "4": "heros_revived:blocks/illar_exture",
+    "5": "heros_revived:blocks/rc-eactor-middle",
     "gray_concrete": "heros_revived:blocks/gray_concrete"
   }
 }

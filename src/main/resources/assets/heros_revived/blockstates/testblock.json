@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "heros_revived:block/testblock"
+    },
+    "facing=east": {
+      "model": "heros_revived:block/testblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "heros_revived:block/testblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "heros_revived:block/testblock",
+      "y": 270
+    }
+  }
+}

@@ -2,7 +2,9 @@
   "mappings": {
     "default": {
       "map": {
-        "glass": "glass",
+        "glass_Top": "glass_op",
+        "glass": "glass_nwe",
+        "4": "illar_exture",
         "gray_concrete": "gray_concrete"
       },
       "name": "default"

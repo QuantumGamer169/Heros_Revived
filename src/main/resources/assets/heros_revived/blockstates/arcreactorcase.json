@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "heros_revived:block/arcreactorcase"
+    },
+    "facing=east": {
+      "model": "heros_revived:block/arcreactorcase",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "heros_revived:block/arcreactorcase",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "heros_revived:block/arcreactorcase",
+      "y": 270
     }
   }
 }

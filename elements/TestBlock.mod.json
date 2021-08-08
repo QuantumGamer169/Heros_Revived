@@ -9,10 +9,10 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "arc_reactor_v3-0:default",
+    "customModelName": "arc_reactor_v3-1:default",
     "rotationMode": 1,
     "hasTransparency": true,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
@@ -20,13 +20,13 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "ARCREACTORCASE",
+    "name": "Test Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -69,11 +69,11 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
-    "hasInventory": true,
-    "guiBoundTo": "Arcreactorcasegui",
-    "openGUIOnRightClick": true,
-    "inventorySize": 1,
-    "inventoryStackSize": 1,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
