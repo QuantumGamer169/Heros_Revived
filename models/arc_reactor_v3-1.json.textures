@@ -6,8 +6,8 @@
         "glass": "glass_nwe",
         "3": "rc-eactor-asing",
         "4": "illar_exture",
-        "5": "rc-eactor-middle",
-        "gray_concrete": "gray_concrete"
+        "5": "",
+        "gray_concrete": ""
       },
       "name": "default"
     }

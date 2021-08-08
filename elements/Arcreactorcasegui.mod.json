@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 340,
-    "height": 317,
+    "width": 352,
+    "height": 332,
     "renderBgLayer": true,
     "components": [
       {
@@ -17,7 +17,7 @@
           },
           "name": "Arc Reactor Display Case",
           "x": 264,
-          "y": 96
+          "y": 78
         }
       },
       {
@@ -29,7 +29,7 @@
           "id": 0,
           "name": "Slot #0",
           "x": 408,
-          "y": 150
+          "y": 132
         }
       }
     ]

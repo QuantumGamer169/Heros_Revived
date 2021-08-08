@@ -88,15 +88,15 @@ public class ArcreactorcaseguiGui extends HerosRevivedElements.ModElement {
 					this.internal = (IInventory) ent;
 			}
 			internal.openInventory(inv.player);
-			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 77, 36) {
+			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 80, 30) {
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 3 + 8 + sj * 18, 4 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 3 + 8 + si * 18, 4 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -255,8 +255,8 @@ public class ArcreactorcaseguiGui extends HerosRevivedElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 170;
-			this.ySize = 159;
+			this.xSize = 176;
+			this.ySize = 166;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("heros_revived:textures/arcreactorcasegui.png");
 		@Override
@@ -282,7 +282,7 @@ public class ArcreactorcaseguiGui extends HerosRevivedElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Arc Reactor Display Case", 4, 8, -16777216);
+			this.font.drawString("Arc Reactor Display Case", 7, 2, -16777216);
 		}
 
 		@Override
