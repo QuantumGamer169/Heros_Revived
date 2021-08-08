@@ -4,7 +4,7 @@
     "all": "heros_revived:blocks/gray_concrete",
     "particle": "heros_revived:blocks/gray_concrete",
     "glass_Top": "heros_revived:blocks/glass_op",
-    "glass": "heros_revived:blocks/glass",
+    "glass": "heros_revived:blocks/glass_nwe",
     "gray_concrete": "heros_revived:blocks/gray_concrete"
   }
 }

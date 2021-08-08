@@ -3,7 +3,7 @@
     "default": {
       "map": {
         "glass_Top": "glass_op",
-        "glass": "glass",
+        "glass": "glass_nwe",
         "gray_concrete": "gray_concrete"
       },
       "name": "default"
