@@ -1,0 +1,10 @@
+{
+  "parent": "heros_revived:custom/arc_reactor_v3",
+  "textures": {
+    "all": "heros_revived:blocks/gray_concrete",
+    "particle": "heros_revived:blocks/gray_concrete",
+    "glass_Top": "heros_revived:blocks/glass_op",
+    "glass": "heros_revived:blocks/glass",
+    "gray_concrete": "heros_revived:blocks/gray_concrete"
+  }
+}
