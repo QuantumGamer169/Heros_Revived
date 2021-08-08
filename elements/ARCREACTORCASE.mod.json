@@ -20,13 +20,13 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "ARCREACTORCASE",
+    "name": "Arc Reactor Case",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Herosrevived"
     },
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,

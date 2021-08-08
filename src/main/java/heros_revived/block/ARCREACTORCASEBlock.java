@@ -27,7 +27,6 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -47,6 +46,8 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
+import heros_revived.itemgroup.HerosrevivedItemGroup;
+
 import heros_revived.gui.ArcreactorcaseguiGui;
 
 import heros_revived.HerosRevivedElements;
@@ -65,7 +66,8 @@ public class ARCREACTORCASEBlock extends HerosRevivedElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(HerosrevivedItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
@@ -112,7 +114,7 @@ public class ARCREACTORCASEBlock extends HerosRevivedElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("ARCREACTORCASE");
+						return new StringTextComponent("Arc Reactor Case");
 					}
 
 					@Override
@@ -250,7 +252,7 @@ public class ARCREACTORCASEBlock extends HerosRevivedElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("ARCREACTORCASE");
+			return new StringTextComponent("Arc Reactor Case");
 		}
 
 		@Override
