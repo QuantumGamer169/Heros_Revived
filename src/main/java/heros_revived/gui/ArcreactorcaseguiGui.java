@@ -88,7 +88,7 @@ public class ArcreactorcaseguiGui extends HerosRevivedElements.ModElement {
 					this.internal = (IInventory) ent;
 			}
 			internal.openInventory(inv.player);
-			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 80, 30) {
+			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 80, 33) {
 			}));
 			int si;
 			int sj;
@@ -282,7 +282,7 @@ public class ArcreactorcaseguiGui extends HerosRevivedElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Arc Reactor Display Case", 7, 2, -16777216);
+			this.font.drawString("Arc Reactor Display Case", 26, 0, -16777216);
 		}
 
 		@Override
